@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  YSTableViewDemo1.0
 //
-//  Created by youzi on 15/12/14.
+//  Created by YS on 15/12/14.
 //  Copyright © 2015年 YS. All rights reserved.
 //
 

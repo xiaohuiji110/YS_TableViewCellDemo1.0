@@ -1,0 +1,16 @@
+PODS:
+  - Masonry (0.6.3)
+  - MJRefresh (2.4.12)
+  - UITableView+FDTemplateLayoutCell (1.4.beta)
+
+DEPENDENCIES:
+  - Masonry (~> 0.6.3)
+  - MJRefresh (~> 2.4.12)
+  - UITableView+FDTemplateLayoutCell (~> 1.4.beta)
+
+SPEC CHECKSUMS:
+  Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
+  MJRefresh: ca8e9589895977df32d379d46e6b8a5450b3ff44
+  UITableView+FDTemplateLayoutCell: 9d20bf0518f3c01e42ae614243b97f1161063d27
+
+COCOAPODS: 0.39.0

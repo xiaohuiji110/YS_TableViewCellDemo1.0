@@ -2,12 +2,12 @@
 //  AppDelegate.m
 //  YSTableViewDemo1.0
 //
-//  Created by youzi on 15/12/14.
+//  Created by YS on 15/12/14.
 //  Copyright © 2015年 YS. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window=[[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController=[[ViewController alloc]init];
+   [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
